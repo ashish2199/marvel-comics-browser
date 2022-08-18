@@ -1,0 +1,21 @@
+.header {
+    background-color: red;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    .logo {
+        margin-left: 100px;
+        margin-top: 10px;
+        font-size: 36px;
+        font-weight: 900;
+        font-family: monospace;
+        color: white;
+    }
+    .search-box {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        flex-grow: 1;
+        padding-right: 10%;
+    }
+}

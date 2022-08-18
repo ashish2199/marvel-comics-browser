@@ -1,0 +1,25 @@
+
+.characters-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #2b2929;
+    min-height: 20%;
+    .avatar-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+        height: 100%;
+        width: 100%;
+        .avatars{
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            overflow: hidden;
+            width: calc(150*7px);
+        }
+        .loading-text {
+            color: white
+        }
+    }
+} 

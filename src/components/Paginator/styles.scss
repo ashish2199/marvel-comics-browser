@@ -1,0 +1,26 @@
+.page-container {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    color: white;
+    min-height: 10%;
+    .page-backward,
+    .pageIcon,
+    .page-forward {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      padding: 10px 20px;
+      font-size: 22px;
+      min-width: 70px;
+      background: #ffffff3b;
+    }
+    .currentPage {
+      border-bottom: 20px solid white;
+    }
+    .disabled {
+      cursor: unset;
+       color: grey;
+    }
+  }

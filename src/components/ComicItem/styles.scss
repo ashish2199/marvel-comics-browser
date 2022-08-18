@@ -1,0 +1,48 @@
+.comic-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 170px;
+    .comic-image{
+        .img-container{
+            
+        }
+        width: 170px;
+        min-height: 260px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+        .comic-details{
+            display: flex;
+            justify-content: space-between;    
+            position: absolute;
+            top: 210px;
+            width: 100%;
+            height: 50px;
+            background: black;
+            font-size: small;
+            width: 100%;
+            .comic-name{
+                color: white;
+                padding: 3px 5px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                width: 85%;
+            }
+            .comic-edition{
+                padding: 3px 5px;
+                color: #c2b245;
+                text-align: end;
+                
+            }
+
+        }
+        
+    }
+}
+
+
